@@ -3,6 +3,7 @@ import Hero from '@/sections/Hero';
 import LogoTicker from '@/sections/LogoTicker';
 import Pricing from '@/sections/Pricing'
 import Features from '@/sections/Features';
+import Testimonials from '@/sections/Testimonials';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero/>
       <LogoTicker/>
       <Features/>
+      <Testimonials/>
       <Pricing/>
     </>
   );
