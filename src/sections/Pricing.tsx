@@ -17,7 +17,7 @@ const pricingPlans = [
     period: "per month",
     description: "For individuals & freelancers",
     features: ["15 AI-generated pages", "Standard SEO tools", "Email support", "3 projects", "Basic analytics"],
-    cta: "Start Free Trial",
+    cta: "Free Trial",
     popular: false,
   },
   {
@@ -33,7 +33,7 @@ const pricingPlans = [
       "Custom integrations",
       "Analytics dashboard",
     ],
-    cta: "Start Free Trial",
+    cta: "Free Trial",
     popular: true,
   },
   {
@@ -49,14 +49,14 @@ const pricingPlans = [
       "SLA guarantee",
       "White-label options",
     ],
-    cta: "Contact Sales",
+    cta: "Contact us",
     popular: false,
   },
 ]
 
-export const Pricing = () => {
+export default function PricingSection() {
   return (
-    <section id='pricing' className="relative py-16 sm:py-20 lg:py-28 overflow-hidden bg-[#0a0a1a]">
+    <section className="relative py-16 sm:py-20 lg:py-28 overflow-hidden bg-[#0a0a1a]">
       {/* Background cosmic effects */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Central glow */}
@@ -139,8 +139,9 @@ export const Pricing = () => {
               </ul>
 
               {/* CTA Button */}
-              
-            <Button>{plan.cta}</Button>
+              <Button>
+                {plan.cta}
+              </Button>
             </div>
           ))}
         </div>

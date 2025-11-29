@@ -1,6 +1,6 @@
 export const Button = (props: React.PropsWithChildren) => {
     return (
-        <button className='relative py-2 px-3 rounded-lg font-medium text-sm bg-gradient-to-b from-[#190d2e] to-[#4a20ba] shadow-[0_0_12px_#8c45ff]'>
+        <button className='relative py-2 px-3 rounded-lg font-medium text-sm xs:text-xs sm:text-sm md:text-base lg:text-sm xl:text-base transition-all bg-gradient-to-b from-[#190d2e] to-[#4a20ba] shadow-[0_0_12px_#8c45ff]'>
             <div className='absolute inset-0'>
               <div className='rounded-lg border border-white/20 absolute inset-0 [mask-image:linear-gradient(to_bottom,black,transparent)]'></div>
               <div className='rounded-lg border border-white/40 absolute inset-0 [mask-image:linear-gradient(to_top,black,transparent)]'></div>

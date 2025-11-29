@@ -5,7 +5,7 @@ import EchoLogo from '@/assets/logo-echo.png';
 import PulseLogo from '@/assets/logo-pulse.png';
 import QuantumLogo from '@/assets/logo-quantum.png';
 
-export const LogoTicker = () => {
+export default function LogoTicker() {
   return <section className='py-20 md:py-24'>
     <div className="container">
       <div className='flex items-center gap-5'>
