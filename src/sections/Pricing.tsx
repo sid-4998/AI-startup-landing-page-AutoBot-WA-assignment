@@ -56,7 +56,7 @@ const pricingPlans = [
 
 export default function PricingSection() {
   return (
-    <section className="relative py-16 sm:py-20 lg:py-28 overflow-hidden bg-[#0a0a1a]">
+    <section id='pricing' className="relative py-16 sm:py-20 lg:py-28 overflow-hidden bg-[#0a0a1a]">
       {/* Background cosmic effects */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Central glow */}
